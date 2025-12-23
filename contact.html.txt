@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bloom Valley Nursery | About & Contact</title>
+</head>
+<body>
+
+<header>
+  <h1>About Us & Contact</h1>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="contact.html">About/Contact</a> |
+    <a href="custom.html">Community</a>
+  </nav>
+  <hr>
+</header>
+
+<main>
+  <section>
+    <h2>About Bloom Valley Nursery</h2>
+    <p>
+      Bloom Valley Nursery provides high-quality plants and gardening
+      solutions for homes and businesses. We focus on sustainability,
+      beauty, and customer satisfaction.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact / Custom Order Form</h2>
+
+    <form>
+      <label>Name:</label><br>
+      <input type="text"><br><br>
+
+      <label>Email:</label><br>
+      <input type="email"><br><br>
+
+      <label>Request Type:</label><br>
+      <select>
+        <option>General Feedback</option>
+        <option>Custom Order</option>
+      </select><br><br>
+
+      <label>Message:</label><br>
+      <textarea rows="5"></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <hr>
+  <p>&copy; 2025 Bloom Valley Nursery</p>
+</footer>
+
+</body>
+</html>

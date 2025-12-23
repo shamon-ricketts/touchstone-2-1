@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bloom Valley Nursery | Gallery</title>
+</head>
+<body>
+
+<header>
+  <h1>Product Gallery</h1>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="contact.html">About/Contact</a> |
+    <a href="custom.html">Community</a>
+  </nav>
+  <hr>
+</header>
+
+<main>
+  <table border="1" cellpadding="10">
+    <tr>
+      <td align="center">
+        <img src="images/product1.jpg" alt="Plant 1" width="150">
+        <p>Indoor Plant</p>
+        <button>Add to Cart</button>
+      </td>
+
+      <td align="center">
+        <img src="images/product2.jpg" alt="Plant 2" width="150">
+        <p>Outdoor Plant</p>
+        <button>Add to Cart</button>
+      </td>
+
+      <td align="center">
+        <img src="images/product3.jpg" alt="Plant 3" width="150">
+        <p>Flowering Plant</p>
+        <button>Add to Cart</button>
+      </td>
+    </tr>
+  </table>
+</main>
+
+<footer>
+  <hr>
+  <p>&copy; 2025 Bloom Valley Nursery</p>
+</footer>
+
+</body>
+</html>
