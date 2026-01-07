@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bloom Valley Nursery | About & Contact</title>
+  <title>Bloom Valley Nursery | About and Contact</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-  <h1>About Us & Contact</h1>
+  <h1>About Us and Contact</h1>
 
   <nav>
     <a href="index.html">Home</a> |
     <a href="gallery.html">Gallery</a> |
-    <a href="contact.html">About/Contact</a> |
+    <a href="contact.html">About and Contact</a> |
     <a href="custom.html">Community</a>
   </nav>
   <hr>
@@ -30,14 +30,14 @@
   </section>
 
   <section>
-    <h2>Contact / Custom Order Form</h2>
+    <h2>Contact and Custom Order Form</h2>
 
-    <form>
+    <form id="contactForm">
       <label>Name:</label><br>
-      <input type="text"><br><br>
+      <input type="text" required><br><br>
 
       <label>Email:</label><br>
-      <input type="email"><br><br>
+      <input type="email" required><br><br>
 
       <label>Request Type:</label><br>
       <select>
@@ -55,10 +55,11 @@
 
 <footer>
   <hr>
+  <button id="subscribeBtn">Subscribe</button>
   <p>&copy; 2025 Bloom Valley Nursery</p>
 </footer>
 
+<script src="script.js"></script>
+
 </body>
 </html>
-
-
